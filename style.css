@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secoundary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2.2rem;
+}
+
+ul>li {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto' sans-serif;
+    font-size: 1.25rem;
+    color: var(--secoundary-text-color);
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.small-bold-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.hover-link {
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
+
+.primary-button {
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secoundary-text-color);
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-button {
+    border: 0.5px solid var(--secoundary-text-color);
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary-button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
+/* Top Banner */
+
+.top-banner {
+    height: 50px;
+    background-color: #4dadf7;
+    background-image: url(assets/asset\ 32.png);
+    background-size: 300px;
+    font-weight: 500;
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+/* Main */
+
+.main-nav {
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main-nav img {
+    width: 200px;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    justify-content: end;
+    gap: 40px;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+header {
+    padding: 50px var(--padding-inline-section) 0px;
+}
+
+.header-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left {
+    width: 40vh;
+}
+
+.header-left h1 {
+    margin-top: 20px;
+}
+
+.get-start-button {
+    margin-top: 20px;
+}
+
+.header-right img {
+    width: 600px;
+}
+
+/* Campany Section */
+
+.campany-section {
+    margin-top: 40px;
+}
+
+.logo {
+    width: 45px;
+}
+
+.campany-header {
+    text-align: center;
+    margin-block: 10px;
+    color: var(--primary-text-color);
+}
+
+.logos {
+    justify-content: space-evenly;
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.feature-section {
+    background-image: url(assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.feature-heading {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.feature-heading a {
+    margin-top: 15px;
+}
+
+.features {
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.feature-box {
+    display: block;
+    margin-top: 30px;
+    width: 30%;
+    margin-block: 10px;
+}
+
+.feature-button-arrow {
+    width: 10%;
+}
+
+.features img {
+    margin-top: 20px;
+    width: 50px;
+}
+
+.features h3 {
+    margin-top: 20px;
+}
+
+.features p {
+    margin-top: 10px;
+}
+
+.features a {
+    margin-top: 20px;
+}
+
+.big-feature1 {
+    gap: 40px;
+}
+
+.big-feature1-left img {
+    width: 600px;
+
+}
+
+.big-feature1-right {
+    text-align: start;
+    margin-top: 80px;
+}
+
+.big-feature1-right h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.big-feature1-right h2 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.chartmogul {
+    margin-top: 20px;
+    background-image: url(assets/asset\ 35.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.chartmogul h4 {
+    margin-block: 30px;
+    font-weight: 600;
+}
+
+.chartmogul p {
+    color: rgb(29, 29, 29);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.nick {
+    margin-top: 20px;
+}
+
+.nick-left img {
+    width: 60px;
+}
+
+.nick-left h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.nick-right p {
+    font-size: 1rem;
+}
+
+/* Big Feature 2 */
+
+.big-feature2 {
+    flex-direction: row-reverse;
+}
+
+
+.big-feature2 {
+    gap: 40px;
+}
+
+.big-feature2-left img {
+    width: 600px;
+
+}
+
+.big-feature2-right {
+    text-align: start;
+    margin-top: 80px;
+}
+
+.big-feature2-right h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.big-feature2-right h2 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.philips {
+    margin-top: 20px;
+    background-image: url(assets/asset\ 35.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.philips h4 {
+    margin-block: 30px;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+
+}
+
+.philips p {
+    color: rgb(29, 29, 29);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.rick {
+    margin-top: 20px;
+}
+
+.rick-left img {
+    width: 60px;
+}
+
+.rick-left h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.rick-right p {
+    font-size: 1rem;
+}
+
+/* Big Feature 3 */
+
+
+.big-feature3 {
+    gap: 40px;
+}
+
+.big-feature3-left img {
+    width: 600px;
+}
+
+.big-feature3-right {
+    text-align: start;
+    margin-top: 80px;
+}
+
+.big-feature3-right h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.big-feature3-right h2 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.economist {
+    margin-top: 20px;
+    background-image: url(assets/asset\ 35.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.economist img {
+    width: 150px;
+    margin-inline: 20px;
+}
+
+.economist p {
+    color: rgb(29, 29, 29);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ron {
+    margin-top: 20px;
+}
+
+.ron-left img {
+    width: 60px;
+}
+
+.ron-left h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.ron-right p {
+    font-size: 1rem;
+}
+
+.cta-section {
+    background-color: lightblue;
+}
+
+.cta {
+    text-align: center;
+    margin-block: 100px;
+    padding-block: 50px;
+    width: 650px;
+}
+
+.cta h2 {
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+}
+
+.cta a {
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.footer ul>li:first-child {
+    font-size: larger;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: auto;
+}
+
+.sub-footer p {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+/* Media Quarry for max width 1024 */
+
+@media screen and (max-width: 1024px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+        color: black;
+    }
+
+    .header-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        width: 90%;
+        text-align: center;
+        margin-block: 40px;
+    }
+
+    .header-right img {
+        width: 100%;
+
+    }
+
+    .feature-section {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media screen and (max-width:900px) {
+
+    .container {
+        overflow: hidden;
+    }
+
+    /* .header-left{
+        margin-block: -50px;
+    } */
+
+    /* .header-right{
+        margin: -100px;
+    } */
+
+    .logos {
+        flex-wrap: wrap;
+    }
+
+    .feature-section {
+        flex-wrap: wrap;
+    }
+
+    .feature-box {
+        width: 50%;
+        padding-inline: 20px;
+    }
+
+
+    .big-feature1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .big-feature1-left img {
+        width: 100%;
+    }
+
+    .big-feature1-right {
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .chartmogul {
+        width: 100%;
+        padding-inline: 80px;
+        background-image: none;
+    }
+
+    .nick {
+        justify-content: center;
+    }
+
+
+    .big-feature2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .big-feature2-left img {
+        width: 100%;
+    }
+
+    .big-feature2-right {
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .philips {
+        width: 100%;
+        padding-inline: 80px;
+        background-image: none;
+    }
+
+    .rick {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .rick-right h4 {
+        margin-left: -15px;
+    }
+
+    .big-feature3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .big-feature3-left img {
+        width: 100%;
+    }
+
+    .big-feature3-right {
+        text-align: center;
+        justify-content: center;
+        margin-top: -10px;
+    }
+
+    .economist {
+        width: 100%;
+        padding-inline: 80px;
+        background-image: none;
+    }
+
+    .economist img {
+        text-align: center;
+    }
+
+    .ron {
+        justify-content: center;
+    }
+
+    .cta-section {
+        margin-block: -50px;
+    }
+
+    .cta-sign-up-button {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+        column-gap: 40px;
+    }
+
+    .footer-logo {
+        width: 50%;
+    }
+
+    .footer-logo img {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 660px) {
+
+        .container{
+            overflow: hidden;
+            padding-inline: -20px;
+        }
+
+        .all-bold-text{
+            width: 100%;
+        }
+
+    }
+
+
+}
